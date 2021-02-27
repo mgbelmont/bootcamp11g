@@ -1,0 +1,41 @@
+.header1{
+    background-color: coral;
+    width: 1000px;
+    height: 100px;
+    align-items: center;
+}
+.nav1{
+    background-color: lightblue;
+    width: 1000px;
+    height: 100px;
+}
+
+.section1{
+    background-color: lemonchiffon;
+    width: 600px;
+    height: 300px;
+}
+
+h1{
+    background-color: maroon;
+    width: 590px;
+    height: 30px; 
+}
+
+.article1{
+    background-color: plum;
+    width: 590px;
+    height: 200px;
+}
+
+.aside1{
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+}
+
+.footer1{
+    background-color: lightcoral;
+    width: 1000px;
+    height: 100px;
+}
