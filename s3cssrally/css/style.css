@@ -12,22 +12,8 @@ div.red{
     */
 
     /*Es lo mismo que arriba solo que lo agrupamos*/
-    /*background: url("https://picsum.photos/id/237/200/300") center/cover  no-repeat;
-    */
-    
-/*
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 30px;
-    margin-left: 30px;
-    
-    margin: 10px 30px 10px 30px;
-    margin: 10px 30px;
-    */
-    
+    background: url("https://picsum.photos/id/237/200/300") center/cover  no-repeat;
 }
-
-
 
 .degradado{
     background: linear-gradient(orange, pink);
