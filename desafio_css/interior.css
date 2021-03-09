@@ -1,0 +1,316 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+main #post-list {
+  max-width: 1280px;
+}
+
+main #post-list h1 {
+  margin: 0 0 1rem;
+}
+
+main #post-list article {
+  cursor: inherit;
+}
+
+main #post-list .article-body {
+  margin: .5rem 1.25rem;
+  font-size: 1.25rem;
+}
+
+main #post-list .article-body a:link, main #post-list .article-body a:visited, main #post-list .article-body a:active {
+  color: #3b49df;
+}
+
+main #post-list .article-body .tags {
+  padding: 0;
+}
+
+main #post-list .article-body .tags a {
+  margin-right: .5rem;
+}
+
+main #post-list .article-body .tags a:nth-of-type(1) {
+  background-color: #562765;
+  color: white;
+  padding: 0.25rem 0.5rem;
+}
+
+main #post-list .article-body .tags a:nth-of-type(2) {
+  background-color: #f7df1e;
+  color: #08090a;
+  padding: 0.25rem 0.5rem;
+}
+
+main #post-list .article-body .tags a:nth-of-type(3) {
+  background-color: #2a0798;
+  color: white;
+  padding: 0.25rem 0.5rem;
+}
+
+main #post-list .article-body .tags a:nth-of-type(4) {
+  background-color: #008335;
+  color: white;
+  padding: 0.25rem 0.5rem;
+}
+
+main #post-list .article-body .autor .autor-name {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+main #post-list .article-body .autor .autor-name div {
+  margin-right: .5rem;
+}
+
+main #post-list .article-body p, main #post-list .article-body ul {
+  margin: 0 0 1.25rem 0;
+}
+
+main #post-list .article-body ul {
+  padding-left: 1.5rem;
+}
+
+main #post-list .article-body .article-content img {
+  width: 100%;
+}
+
+main #post-list .article-body .discussion-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+main #post-list .article-body .discussion-title button {
+  padding: .5rem;
+  color: #363d44;
+  border: 1px solid #d2d6db;
+  background-color: white;
+  font-size: 1rem;
+  padding: 6px 14px;
+  border-radius: 5px;
+}
+
+main #post-list .article-body .discussion-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #post-list .article-body .discussion-body .discussion-comment {
+  border: 1px solid #ccc;
+  border-radius: .25rem;
+  padding: 1rem;
+  margin-left: .5rem;
+}
+
+main #post-list .article-body .discussion-body .discussion-comment a:link, main #post-list .article-body .discussion-body .discussion-comment a:visited, main #post-list .article-body .discussion-body .discussion-comment a:active {
+  text-decoration: none;
+  color: #64707D;
+}
+
+main #post-list .article-body .code-conduct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: .85rem;
+}
+
+main #post-list .article-body .code-conduct a:link, main #post-list .article-body .code-conduct a:visited, main #post-list .article-body .code-conduct a:active {
+  text-decoration: none;
+  color: #64707D;
+  margin: 0 .5rem;
+}
+
+main #post-list article.section-read-next .article-body {
+  margin-top: 2rem;
+}
+
+main #post-list article.section-read-next .article-body h2 {
+  font-size: 1.5rem;
+  padding-left: 0;
+}
+
+main #post-list article.section-read-next .article-body .list-next a:link, main #post-list article.section-read-next .article-body .list-next a:visited, main #post-list article.section-read-next .article-body .list-next a:active {
+  text-decoration: none;
+  color: #64707D;
+  margin: 0 .5rem;
+}
+
+main #post-list article.section-read-next .article-body .list-next .next-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #post-list article.section-read-next .article-body .list-next .next-article span {
+  margin: 0;
+}
+
+main #post-list article.section-read-next .article-body .list-next .next-article div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 1rem;
+}
+
+main #post-list article.section-read-next .article-body .list-next .next-article div h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+main #post-list article.section-read-next .article-body .list-next .next-article div p {
+  margin: 0;
+}
+
+main #post-list article.section-read-next .article-body .list-next .next-article div h3:hover, main #post-list article.section-read-next .article-body .list-next .next-article div p:hover {
+  color: #3b49df;
+}
+
+main #post-list article.section-read-next .article-body .list-next .next-article .ico-profile {
+  width: 4rem;
+  height: 4rem;
+}
+
+@media only screen and (min-width: 768px) {
+  main #post-list {
+    width: 300%;
+  }
+  main #post-list article .article-body {
+    margin: .5rem 4rem;
+  }
+  main #post-list article .article-body h1 {
+    font-size: 36px;
+  }
+  main #side-right {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15px;
+  }
+  main #side-right a:link, main #side-right a:visited, main #side-right a:active {
+    text-decoration: none;
+  }
+  main #side-right ul .flex-min {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main #side-right .ico-profile2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+  }
+  main #side-right .card-work {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  main #side-right .card-work .work-hover {
+    color: #3b49df;
+    cursor: pointer;
+  }
+  main #side-right .card-work .opacity {
+    opacity: 0.5;
+  }
+  main #side-right .card-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  main #side-right .card-flex > :last-of-type:hover {
+    color: #3b49df;
+    cursor: pointer;
+  }
+  main #side-right .card-flex > {
+    color: #08090a;
+  }
+  main #side-right .side-right-profile {
+    border-top: 33px solid #922180;
+    padding: 16px;
+  }
+  main #side-right .side-right-profile .top-profile {
+    margin-top: -45px;
+  }
+  main #side-right .side-right-profile ul {
+    list-style: none;
+  }
+  main #side-right .side-right-profile .card-content {
+    padding-bottom: 14px;
+  }
+  main #side-right .side-right-profile .card-title-sec {
+    font-weight: bold;
+    font-size: 12px;
+    color: #4d5760;
+  }
+  main #side-right .side-right-profile button {
+    background-color: #3b49df;
+    color: white;
+    border: 0px;
+    padding: 14px 20px;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  main #side-right .side-right-profile button:hover {
+    background-color: #323ebe;
+  }
+  main #side-right .side-right-profile button:active {
+    content: "Following";
+    background-color: #EEF0F1;
+    border: 1px solid #b5bdc4;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  main #post-list article .article-body h1 {
+    font-size: 48px;
+  }
+}
+/*# sourceMappingURL=interior.css.map */
