@@ -1,0 +1,94 @@
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.bg-violet {
+  background-color: #733fc8;
+}
+
+.bg-gray {
+  background-color: #49556b;
+}
+
+.bg-dark-gray {
+  background-color: #18202d;
+}
+
+.bg-background {
+  background-color: #edf2f8;
+}
+
+.violet-text {
+  color: #a775f2;
+}
+
+.quotes {
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position-x: 200px;
+}
+
+h5 {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 11px;
+}
+
+.img-size {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #a775f2;
+}
+
+.border-gray {
+  border: 2px solid #a6aebc;
+}
+
+div p:first-of-type {
+  font-size: 20px;
+  line-height: 1.3rem !important;
+}
+
+div p:last-of-type {
+  font-size: 12px;
+}
+
+.txt-light-gray {
+  color: #9398a2;
+  font-size: 13px;
+}
+
+/*BLACK CARD*/
+.opacity-70 {
+  opacity: 70%;
+}
+
+.opacity-50 {
+  opacity: 50%;
+}
+
+@media only Screen and (min-width: 768px) {
+  .quotes {
+    background-position-x: 445px;
+  }
+}
+
+@media only Screen and (min-width: 1024px) {
+  .quotes {
+    background-position-x: 387px;
+  }
+}
+
+/*White cards*/
+.img-size-white {
+  width: 35px;
+  height: 35px;
+}
+
+.text-white-card {
+  color: #4b5569;
+}
+/*# sourceMappingURL=style.css.map */
