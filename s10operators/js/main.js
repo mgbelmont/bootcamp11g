@@ -11,7 +11,7 @@ if (!Number.isNaN(sideOne) && !Number.isNaN(sideTwo) && !Number.isNaN(sideThree)
       alert("El triángulo es Equilátero");
     } else {
       if ((sideOne == sideTwo) || (sideOne == sideThree) || (sideTwo == sideThree)) {
-        alert("El triángulo es Isósceles y su área es: " );
+        alert("El triángulo es Isósceles" );
       } else {
         alert("El triángulo es Escaleno");
       }
@@ -50,5 +50,5 @@ if (!Number.isNaN(base) && !Number.isNaN(height)) {
     alert("No se aceptan valores de 0");
   }  
 } else {
-  alert("");
+  alert("Escribe solo números");
 }
